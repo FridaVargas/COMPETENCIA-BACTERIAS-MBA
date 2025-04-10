@@ -9,8 +9,10 @@ El trabajo integra una simulación construida desde cero en **NetLogo**, complem
 ---
 
 ## 🔎 Descripción general
-
-El modelo simula la **interacción entre dos tipos de bacterias** en un entorno cerrado: una cepa común (**E. coli**) y una **cepa acidófila** (tipo *Lactobacillus*). Las bacterias compiten por espacio y recursos en un medio lácteo, donde la cepa acidófila modifica el entorno al producir ácido al consumir lactosa, lo que puede intoxicar a las bacterias sensibles si el pH baja demasiado.
+<p align="center">
+  <img src="GIFsEscenarios/Escenario1.gif" alt="Escenario 1"/>
+</p>
+El modelo simula la **interacción entre dos tipos de bacterias** en un entorno cerrado: una cepa común (**E. coli** en morado) y una **cepa acidófila** (tipo *Lactobacillus* en verde). Las bacterias compiten por espacio y recursos en un medio lácteo, donde la cepa acidófila modifica el entorno al producir ácido al consumir lactosa, lo que puede intoxicar a las bacterias sensibles si el pH baja demasiado.
 
 El sistema está gobernado por reglas locales que definen reproducción, consumo de recursos, acidificación del entorno, y dispersión de acidez. Se modelan tiempos generacionales dependientes del pH mediante funciones spline cúbicas, lo que permite observar dinámicas no lineales.
 
