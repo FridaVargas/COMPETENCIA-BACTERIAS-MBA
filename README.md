@@ -2,6 +2,8 @@
 
 Este repositorio contiene el proyecto final desarrollado por **Frida Michelle Vargas Bautista** como parte del curso *Proyecto I* de la Facultad de Ciencias de la UNAM, impartido por el **Biol. Luis Guillermo García Jácome**.
 
+![imagen](https://github.com/user-attachments/assets/37c46f32-e4b3-4453-a36c-9883dac8503d)
+
 El trabajo integra una simulación construida desde cero en **NetLogo**, complementada con un documento escrito que desarrolla la motivación biológica, la justificación del modelo, su estructura técnica y un análisis de los resultados. Además, el proyecto está inspirado en un ejercicio propuesto dentro de un texto de investigación en biología computacional.
 
 ---
