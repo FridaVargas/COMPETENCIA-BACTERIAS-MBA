@@ -23,7 +23,6 @@ El sistema está gobernado por reglas locales que definen reproducción, consumo
 ---
 <table>
   <tr>
-    <td align="center"><img src="GIFsEscenarios/Escenario1.gif" alt="Escenario 1" width="300"/></td>
     <td align="center"><img src="GIFsEscenarios/Escenario2.gif" alt="Escenario 2" width="300"/></td>
     <td align="center"><img src="GIFsEscenarios/Escenario3.gif" alt="Escenario 3" width="300"/></td>
     <td align="center"><img src="GIFsEscenarios/Escenario4.gif" alt="Escenario 4" width="300"/></td>
