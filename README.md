@@ -28,6 +28,20 @@ El sistema está gobernado por reglas locales que definen reproducción, consumo
 > Se incluye la versión anotada como parte del proceso formativo, conservando la evidencia de revisión y mejora del trabajo.
 
 ---
+<table>
+  <tr>
+    <td align="center"><img src="GIFsEscenarios/Escenario1.gif" alt="Escenario 1" width="200"/></td>
+    <td align="center"><img src="GIFsEscenarios/Escenario2.gif" alt="Escenario 2" width="200"/></td>
+    <td align="center"><img src="GIFsEscenarios/Escenario3.gif" alt="Escenario 3" width="200"/></td>
+    <td align="center"><img src="GIFsEscenarios/Escenario4.gif" alt="Escenario 4" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Escenario 1</strong></td>
+    <td align="center"><strong>Escenario 2</strong></td>
+    <td align="center"><strong>Escenario 3</strong></td>
+    <td align="center"><strong>Escenario 4</strong></td>
+  </tr>
+</table>
 
 ## 💡 Características del modelo
 
