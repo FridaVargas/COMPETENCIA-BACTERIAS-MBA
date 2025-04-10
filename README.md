@@ -64,9 +64,9 @@ _An Introduction to Undergraduate Research in Computational and Mathematical Bio
 ---
 ## 📂 Archivos incluidos
 
-- `modelo_final.nlogo` — Modelo completo implementado en NetLogo.
-- `Trabajo_Frida_Vargas.pdf` — Documento escrito con introducción, modelo, análisis y resultados.
-- `Trabajo_Frida_Vargas_con_anotaciones.pdf` — Versión del trabajo con anotaciones realizadas durante la retroalimentación académica.
+- `ProyectoMBA.nlogo` — Modelo completo implementado en NetLogo.
+- `TrabajoEscritoOriginal.pdf` — Documento escrito con introducción, modelo, análisis y resultados.
+- `TrabajoEscritoRetro.pdf` — Versión del trabajo con anotaciones realizadas durante la retroalimentación académica.
 
 > Se incluye la versión anotada como parte del proceso formativo, conservando la evidencia de revisión y mejora del trabajo.
 
