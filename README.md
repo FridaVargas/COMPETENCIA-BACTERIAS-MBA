@@ -17,9 +17,6 @@ El modelo simula la **interacción entre dos tipos de bacterias** en un entorno 
 
 El sistema está gobernado por reglas locales que definen reproducción, consumo de recursos, acidificación del entorno, y dispersión de acidez. Se modelan tiempos generacionales dependientes del pH mediante funciones spline cúbicas, lo que permite observar dinámicas no lineales.
 
-> *"Si nuestro cuerpo funciona es porque nuestras células se comunican."*  
-> Esta idea me acompaña todavía, y cobra vida en estos modelos donde agentes simples, al interactuar, dan lugar a algo mucho más grande y complejo.
-
 ---
 <table>
   <tr>
