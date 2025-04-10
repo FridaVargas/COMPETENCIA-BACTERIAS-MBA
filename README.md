@@ -1,4 +1,4 @@
-# 🧫 Competencia bacteriana y simulación de sistemas dinámicos
+# 🧫 Crecimiento y competencia de bacterias usando Modelación Basada en Agentes
 
 Este repositorio contiene el proyecto final desarrollado por **Frida Michelle Vargas Bautista** como parte del curso *Proyecto I* de la Facultad de Ciencias de la UNAM, impartido por el **Biol. Luis Guillermo García Jácome**.
 
