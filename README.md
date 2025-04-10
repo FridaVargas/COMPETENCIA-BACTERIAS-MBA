@@ -34,7 +34,7 @@ El sistema está gobernado por reglas locales que definen reproducción, consumo
 - Espacio toroidal (mundo sin bordes).
 - Dos tipos de bacterias:
   - **Bacteria acidófila** (color morado): consume más lactosa y acidifica su entorno.
-  - **Bacteria sensible (E. coli)** (color gris): sufre toxicidad si el pH disminuye demasiado.
+  - **Bacteria sensible (E. coli)** (color gris): sufre toxicidad si el pH disminuye demasiado pero se reproduce mucho más rápido.
 - Consumo diferencial de lactosa y producción de ácido.
 - Reproducción local si hay espacio disponible y suficiente energía.
 - Muerte por acidez modelada como función probabilística.
