@@ -1,4 +1,4 @@
-# Competencia bacteriana y simulación de sistemas dinámicos
+# 🧫 Competencia bacteriana y simulación de sistemas dinámicos
 
 Este repositorio contiene el proyecto final desarrollado por **Frida Michelle Vargas Bautista** como parte del curso *Proyecto I* de la Facultad de Ciencias de la UNAM, impartido por el **Biol. Luis Guillermo García Jácome**.
 
@@ -8,9 +8,9 @@ El trabajo integra una simulación construida desde cero en **NetLogo**, complem
 
 ## 🔎 Descripción general
 
-El modelo simula la **competencia entre tres cepas bacterianas** en un entorno cerrado, a través de una dinámica cíclica tipo *piedra-papel-tijera*. Cada tipo bacteriano domina sobre otro, lo que permite observar fenómenos como alternancia, ciclos de dominancia, y estabilidad ecológica.
+El modelo simula la **interacción entre dos tipos de bacterias** en un entorno cerrado: una cepa común (**E. coli**) y una **cepa acidófila** (tipo *Lactobacillus*). Las bacterias compiten por espacio y recursos en un medio lácteo, donde la cepa acidófila modifica el entorno al producir ácido al consumir lactosa, lo que puede intoxicar a las bacterias sensibles si el pH baja demasiado.
 
-El proyecto busca representar procesos de interacción ecológica mediante reglas locales entre agentes, demostrando cómo patrones globales pueden emerger de dinámicas simples.
+El sistema está gobernado por reglas locales que definen reproducción, consumo de recursos, acidificación del entorno, y dispersión de acidez. Se modelan tiempos generacionales dependientes del pH mediante funciones spline cúbicas, lo que permite observar dinámicas no lineales.
 
 > *"Si nuestro cuerpo funciona es porque nuestras células se comunican."*  
 > Esta idea me acompaña todavía, y cobra vida en estos modelos donde agentes simples, al interactuar, dan lugar a algo mucho más grande y complejo.
@@ -30,13 +30,14 @@ El proyecto busca representar procesos de interacción ecológica mediante regla
 ## 💡 Características del modelo
 
 - Espacio toroidal (mundo sin bordes).
-- Tres tipos de bacterias representadas por colores: rojo, azul y amarillo.
-- Dominancia cíclica:
-  - Rojo vence a azul.
-  - Azul vence a amarillo.
-  - Amarillo vence a rojo.
-- Competencia por invasión de espacio según reglas locales.
-- Variabilidad estocástica: el modelo puede producir dinámicas cíclicas, equilibrio o dominancia.
+- Dos tipos de bacterias:
+  - **Bacteria acidófila** (color morado): consume más lactosa y acidifica su entorno.
+  - **Bacteria sensible (E. coli)** (color gris): sufre toxicidad si el pH disminuye demasiado.
+- Consumo diferencial de lactosa y producción de ácido.
+- Reproducción local si hay espacio disponible y suficiente energía.
+- Muerte por acidez modelada como función probabilística.
+- Dispersión de acidez entre parches vecinos.
+- Tiempo generacional dependiente del pH, definido mediante funciones spline cúbicas.
 
 ---
 
@@ -63,4 +64,5 @@ _An Introduction to Undergraduate Research in Computational and Mathematical Bio
 ## ✨ Nota personal
 
 Este proyecto fue realizado de forma completamente individual como entrega final del curso. La simulación y el trabajo escrito reflejan el proceso de exploración, integración interdisciplinaria y aplicación de herramientas computacionales al modelado biológico. Fue evaluado y mejorado con base en observaciones académicas, lo que fortaleció aún más su desarrollo.
+
 
