@@ -12,6 +12,7 @@ El trabajo integra una simulación construida desde cero en **NetLogo**, complem
 <p align="center">
   <img src="GIFsEscenarios/Escenario1.gif" alt="Escenario 1"/>
 </p>
+
 El modelo simula la **interacción entre dos tipos de bacterias** en un entorno cerrado: una cepa común (**E. coli**) en morado y una **cepa acidófila** (tipo *Lactobacillus*) en verde. Las bacterias compiten por espacio y recursos en un medio lácteo, donde la cepa acidófila modifica el entorno al producir ácido al consumir lactosa, lo que puede intoxicar a las bacterias sensibles si el pH baja demasiado.
 
 El sistema está gobernado por reglas locales que definen reproducción, consumo de recursos, acidificación del entorno, y dispersión de acidez. Se modelan tiempos generacionales dependientes del pH mediante funciones spline cúbicas, lo que permite observar dinámicas no lineales.
@@ -20,28 +21,12 @@ El sistema está gobernado por reglas locales que definen reproducción, consumo
 > Esta idea me acompaña todavía, y cobra vida en estos modelos donde agentes simples, al interactuar, dan lugar a algo mucho más grande y complejo.
 
 ---
-
-## 📂 Archivos incluidos
-
-- `modelo_final.nlogo` — Modelo completo implementado en NetLogo.
-- `Trabajo_Frida_Vargas.pdf` — Documento escrito con introducción, modelo, análisis y resultados.
-- `Trabajo_Frida_Vargas_con_anotaciones.pdf` — Versión del trabajo con anotaciones realizadas durante la retroalimentación académica.
-
-> Se incluye la versión anotada como parte del proceso formativo, conservando la evidencia de revisión y mejora del trabajo.
-
----
 <table>
   <tr>
-    <td align="center"><img src="GIFsEscenarios/Escenario1.gif" alt="Escenario 1" width="200"/></td>
-    <td align="center"><img src="GIFsEscenarios/Escenario2.gif" alt="Escenario 2" width="200"/></td>
-    <td align="center"><img src="GIFsEscenarios/Escenario3.gif" alt="Escenario 3" width="200"/></td>
-    <td align="center"><img src="GIFsEscenarios/Escenario4.gif" alt="Escenario 4" width="200"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Escenario 1</strong></td>
-    <td align="center"><strong>Escenario 2</strong></td>
-    <td align="center"><strong>Escenario 3</strong></td>
-    <td align="center"><strong>Escenario 4</strong></td>
+    <td align="center"><img src="GIFsEscenarios/Escenario1.gif" alt="Escenario 1" width="300"/></td>
+    <td align="center"><img src="GIFsEscenarios/Escenario2.gif" alt="Escenario 2" width="300"/></td>
+    <td align="center"><img src="GIFsEscenarios/Escenario3.gif" alt="Escenario 3" width="300"/></td>
+    <td align="center"><img src="GIFsEscenarios/Escenario4.gif" alt="Escenario 4" width="300"/></td>
   </tr>
 </table>
 
@@ -78,9 +63,15 @@ _An Introduction to Undergraduate Research in Computational and Mathematical Bio
 - **Semestre:** 2025-I
 
 ---
+## 📂 Archivos incluidos
 
-## ✨ Nota personal
+- `modelo_final.nlogo` — Modelo completo implementado en NetLogo.
+- `Trabajo_Frida_Vargas.pdf` — Documento escrito con introducción, modelo, análisis y resultados.
+- `Trabajo_Frida_Vargas_con_anotaciones.pdf` — Versión del trabajo con anotaciones realizadas durante la retroalimentación académica.
 
-Este proyecto fue realizado de forma completamente individual como entrega final del curso. La simulación y el trabajo escrito reflejan el proceso de exploración, integración interdisciplinaria y aplicación de herramientas computacionales al modelado biológico. Fue evaluado y mejorado con base en observaciones académicas, lo que fortaleció aún más su desarrollo.
+> Se incluye la versión anotada como parte del proceso formativo, conservando la evidencia de revisión y mejora del trabajo.
+
+
+**Este proyecto fue realizado de forma completamente individual como entrega final del curso. La simulación y el trabajo escrito reflejan el proceso de exploración, integración interdisciplinaria y aplicación de herramientas computacionales al modelado biológico. Fue evaluado y mejorado con base en observaciones académicas, lo que fortaleció aún más su desarrollo.**
 
 
